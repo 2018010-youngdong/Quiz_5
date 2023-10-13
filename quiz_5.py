@@ -9,14 +9,14 @@ class fishbread:
     def eat(self):
         print(self.ingredient + '을 먹었습니다.')
 
-redbeen_bread = fishbread('팥 붕어빵',1000)
+redbean_bread = fishbread('팥 붕어빵',1000)
 cream_bread = fishbread('슈크림 붕어빵',900)
 
 cream_bread.eat()
-redbeen_bread.sell()
-redbeen_bread.sell()
-redbeen_bread.sell()
-redbeen_bread.sell()
-redbeen_bread.sell()
+redbean_bread.sell()
+redbean_bread.sell()
+redbean_bread.sell()
+redbean_bread.sell()
+redbean_bread.sell()
 
-print(redbeen_bread.total)
+print(redbean_bread.total)
